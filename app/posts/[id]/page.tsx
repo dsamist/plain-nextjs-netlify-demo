@@ -54,7 +54,7 @@ export default async function Post({ params }: { params: Promise<{ id: string }>
         </div>
       </article>
 
-      {/* Delete Button */}
+      {/* Delete Button
       <form action={deletePost} className="mt-6">
         <button
           type="submit"
@@ -62,7 +62,7 @@ export default async function Post({ params }: { params: Promise<{ id: string }>
         >
           Delete Post
         </button>
-      </form>
+      </form> */}
     </div>
   );
 }
